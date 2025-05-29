@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    }
+
+body{
+    background-color: rgba(210, 210, 235, 0.849);
+    }
+
+
+
+.contenedor-img {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre imagen y texto */
+    flex-direction: row; /* Mueve la imagen al lado derecho */
+}
+.usm {
+    width: 200px;
+    height: auto;
+    align-items: center;
+}
+.inacap{    
+    width: 200px;
+    height: auto;
+    align-items: center;
+
+}
+
+.sky{
+    width: 200px;
+    height: auto;
+    align-items: center;
+}
