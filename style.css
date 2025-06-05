@@ -11,13 +11,13 @@ body{
 .contenedor-img {
     display: flex;
     align-items: center;
-    gap: 15px; /* Espacio entre imagen y texto */
-    flex-direction: row; /* Mueve la imagen al lado derecho */
+    gap: 500px; 
+    flex-direction: row;  
 }
 .usm {
     width: 200px;
     height: auto;
-    align-items: center;
+    align-items: center;    
 }
 .inacap{    
     width: 200px;
@@ -30,4 +30,11 @@ body{
     width: 200px;
     height: auto;
     align-items: center;
+}
+
+.contenedor-usm {
+    display: flex;
+    align-items: center;
+    gap: 290px; 
+    flex-direction: row;  
 }
