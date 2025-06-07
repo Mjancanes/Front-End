@@ -3,11 +3,42 @@ h1{
     }
 
 body{
-    background-color: rgba(210, 210, 235, 0.849);
+    background-color: rgba(210, 235, 217, 0.849);
     }
+.line{
+    height: 1000px;
+    width: 25% ;
+    background-color: #2c3b78;
 
+}
+.the-rock{
+    margin-left:80px;
+    margin-top:30px;
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover;
 
+}
+.text-line{
+    margin-top: 0px;
+    margin-left: 3  0px;
+    color:#d4dce6;
+}
 
+.line-pequeña{
+    width: 80%; /* Ajusta el ancho según necesites */
+    height: 3px; /* Grosor de la línea */
+    background-color: white; /* Color de la línea */
+
+}
+
+.contiene-algo{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px;
+}
 .contenedor-img {
     display: flex;
     align-items: center;
